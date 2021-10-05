@@ -22,7 +22,7 @@ mkdir .secret
 ```
 `hardhat.config.js` is using it.
 
-Create a infura account and project, get the project ID.
+Create an infura account and a project, get the project ID.
 
 The `hardhat.config.js` also needs it.
 
