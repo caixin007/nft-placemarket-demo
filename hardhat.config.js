@@ -1,7 +1,7 @@
 require("@nomiclabs/hardhat-waffle");
 const fs = require("fs");
 const privateKey = fs.readFileSync(".secret").toString();
-const projectId = "5da667dacf5c457a8862aab22f1d986e";
+const projectId = "YourInfuraProjectId";
 
 module.exports = {
   networks: {
