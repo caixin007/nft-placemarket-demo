@@ -5,10 +5,26 @@ This is a demo of NFT contract ERC721 and Marketplace contract with a simple fro
 
 ## Installation
 
+Frontend
+
 ``` 
 yarn install
 yarn dev
 ```
+
+Deploy
+
+create a new file `.secret` at `/` and paste your privite key.
+
+This privite key will be your contract owner
+```
+mkdir .secret
+```
+`hardhat.config.js` is using it.
+
+Create a infura account and project, get the project ID.
+
+The `hardhat.config.js` also needs it.
 
 
 ## Smart Contract
